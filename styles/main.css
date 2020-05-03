@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.mycard h5 {
+  font-weight: normal;
+  font-size: 36px;
+  color: #1d1d1d;
+  
+}
+.mycard .card-text {
+  font-weight: normal;
+  font-size: 14px;
+  color: #626262;
+}
+.mycard .btn{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 13px;
+}
+.mycard{
+    width: 24rem;
+    
+}
+.section-menu{
+    margin-top: 33px;
+}
+.section-cads__menu img{
+   min-width: 102px;
+
+}
