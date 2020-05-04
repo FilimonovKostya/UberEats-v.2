@@ -17,14 +17,16 @@ body {
     font-weight: normal;
     font-size: 13px;
 }
-.mycard{
-    width: 24rem;
-    
-}
+
 .section-menu{
     margin-top: 33px;
 }
 .section-cads__menu img{
    min-width: 102px;
-
+}
+.mycard{
+  height: 205px;
+}
+.footer{
+  background: #262626;
 }
