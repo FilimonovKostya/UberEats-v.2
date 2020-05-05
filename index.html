@@ -86,7 +86,7 @@
                
                       <div class="container ">
                         <div class="row ">
-                      <div class="col-lg-5 ">
+                      <div class="col-lg-5 col-md-7 d-none d-sm-block ">
                         <div class="card  mycard">
                           <div class="card-body  d-flex flex-row flex-wrap justify-content-around  align-items-center  ">
                             <h5 class="card-title">Трактир «Пушкин»</h5>
@@ -164,14 +164,14 @@
       <div class="container">
        <h3 class="pt-5 pb-5">Закуски</h3>
         <div class="row">
-          <div class="col">
+          <div class="col-lg-6">
             <div class="card mb-3" >
             <div class="row no-gutters flex-row-reverse">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="img/krevetki.png" class="card-img" alt="krevetka">
               </div>
-              <div class="col-md-8  ">
-                <div class="card-body">
+              <div class="col-8  ">
+                <div class="card-body ">
                   <h5 class="card-title">Сельдь на бородинском хлебе</h5>
                   <p class="card-text"><strong>240 ₽</strong></small></p>
                 </div>
@@ -183,13 +183,13 @@
         <!-- Сельдь на бородинском хлебе -->
 
         <!-- Соленья ассорти -->
-          <div class="col">
+          <div class="col-lg-6">
             <div class="card mb-3" >
             <div class="row no-gutters flex-row-reverse">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="img/chesnok.png" class="card-img" alt="chsnok">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">Соленья ассорти</h5>
                   <p class="card-text"><strong>320 ₽</strong></small></p>
@@ -203,13 +203,13 @@
 
         <!-- Грибы маринованные -->
         <div class="row">
-          <div class="col">
+          <div class="col-lg-6">
             <div class="card mb-3" >
             <div class="row no-gutters flex-row-reverse">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="img/salat.png" class="card-img" alt="salat">
               </div>
-              <div class="col-md-8  ">
+              <div class="col-8  ">
                 <div class="card-body">
                   <h5 class="card-title">Грибы маринованные</h5>
                   <p class="card-text"><strong>300 ₽</strong></small></p>
@@ -221,13 +221,13 @@
         <!-- Грибы маринованные -->
 
 <!-- Сало домашнее с горчицей -->
-          <div class="col">
+<div class="col-lg-6">
             <div class="card mb-3" >
             <div class="row no-gutters flex-row-reverse">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="img/salo.png" class="card-img" alt="salo">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">Сало домашнее с горчицей</h5>
                   <p class="card-text"><strong>320 ₽</strong></small></p>
@@ -241,13 +241,13 @@
 
 <!-- Малосольная семга -->
         <div class="row ">
-          <div class="col">
+          <div class="col-lg-6">
             <div class="card mb-3 " >
             <div class="row no-gutters flex-row-reverse">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="img/losos.png" class="card-img" alt="losos">
               </div>
-              <div class="col-md-8  ">
+              <div class="col-8  ">
                 <div class="card-body  ">
                   <h5 class="card-title">Малосольная семга</h5>
                   <p class="card-text"><strong>390 ₽</strong></small></p>
@@ -259,13 +259,13 @@
         <!-- Малосольная семга -->
 
         <!-- Язык говяжий с хреном -->
-          <div class="col">
+        <div class="col-lg-6">
             <div class="card mb-3" >
             <div class="row no-gutters flex-row-reverse">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="img/blevota.png" class="card-img" alt="blevota">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">Язык говяжий с хреном</h5>
                   <p class="card-text"><strong>350 ₽</strong></small></p>
@@ -281,23 +281,68 @@
 
 <!-- Подвал -->
 <footer class="footer">
+  <!-- -lOGO -->
   <div class="container pt-5 pb-5">
     <img src="icons/white-logo.svg"  alt="white-logo">
     <hr class="bg-light mt-5 mb-5">
+<!-- -lOGO -->
 
-    <div class="input-group" style="width: 230px;">
-      <input type="text" class="form-control bg-dark text-light" >
-      <div class="input-group-append">
-        <button class="btn bg-dark dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item " href="#">Китайский</a>
-          <a class="dropdown-item" href="#">Испанский</a>
-          <a class="dropdown-item" href="#">Английский</a>
-     
-        </div>
-      </div>
+
+
+<!-- вЫБОР ЯЗЫКА -->
+    <div class="my-input  d-flex justify-content-between flex-column flex-md-row">
+    <select class="custom-select bg-dark text-light" id="inputGroupSelect02">
+      <option selected>Русский</option>
+      <option value="1">Китайский</option>
+      <option value="2">Английский</option>
+      <option value="3">Испанский</option>
+    </select>
+     <!-- выбор языка -->
+
+     <!--CСЫЛКИ -->
+     <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Об UberEats</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Станьте партнёром по доставке</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Станьте парнёром-рестораном</a>
+      </li>
+    </ul>
+      <!--CСЫЛКИ -->
+     <!--CСЫЛКИ -->
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Все города</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Цены</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Помощь</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAQs</a>
+      </li>
+    </ul>
+     <!--CСЫЛКИ -->
+   
     </div>
-  </div>
+    <!-- конец менюшкам -->
+    <hr class="bg-light mt-5 mb-5">
+    <div class=" d-flex justify-content-center">
+     <a href="#" class="mr-5"> <img src="icons/apple.svg"  alt="apple"></a>
+     <a href="#"> <img src="icons/google.svg" alt="apple"></a>
+    </div>
+    <hr class="bg-light mt-5 mb-5">
+    <div class="d-flex justify-content-between flex-sm-row  flex-column">
+      <a href="#" class="text-warning mb-3">© 2017 Uber Technologies Inc.</a>
+      <a href="#" class="text-warning mb-3">Обработка персональных данных</a>
+      <a href="#" class="text-warning">Пользовательское соглашение</a>
+    </div>
+    </div>
 </footer>
 
 

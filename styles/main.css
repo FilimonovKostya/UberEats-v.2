@@ -30,3 +30,30 @@ body {
 .footer{
   background: #262626;
 }
+.form-control{
+  border: none;
+}
+.no-gutters>.col, .no-gutters>[class*=col-]{
+  display: flex;
+}
+.my-input{
+  position: relative;
+}
+.my-input select {
+  padding-left: 40px;
+  width: 227px;
+}
+.my-input::before{
+  content: url(/icons/world.svg);
+  top: 8px;
+  position: absolute;
+  left: 13px;
+}
+
+/* MEDIA QUERRIES */
+@media only screen and (max-width:320px){
+  .col-lg-6{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
